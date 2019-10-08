@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RandomGame</string>
+    <string name="welcomeText">WELCOME</string>
+    <string name="welcomeTextDetail">to random calculator game for fun that created by Aphiwit</string>
+    <string name="startGame">LEt\'s Start</string>
+    <string name="randomNum1">Num1</string>
+    <string name="randomNum2">num2</string>
+    <string name="checkAnswer">Check Answer</string>
+    <string name="hinAnswer">Input your answer</string>
+    <string name="plusOperation">+</string>
+    <string name="textAnswerIs">The answer is</string>
+    <string name="CheckAnswer">That\'s Correct</string>
+    <string name="playAgain">Play Game Again</string>
+</resources>

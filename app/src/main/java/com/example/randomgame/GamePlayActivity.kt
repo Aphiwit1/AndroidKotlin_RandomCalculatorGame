@@ -23,14 +23,19 @@ class GamePlayActivity : AppCompatActivity() {
         textView_num1.text = "$RANDOM_NUM1"
         textView_num2.text = "$RANDOM_NUM2"
 
-        if (RANDOM_OPARATION == 1) {
-            textField_Operator.text = "+"
-        } else if (RANDOM_OPARATION == 2) {
-            textField_Operator.text = "-"
-        } else if (RANDOM_OPARATION == 3) {
-            textField_Operator.text = "*"
-        } else if (RANDOM_OPARATION == 4) {
-            textField_Operator.text = "/"
+        when (RANDOM_OPARATION) {
+            1 -> {
+                textField_Operator.text = "+"
+            }
+            2 -> {
+                textField_Operator.text = "-"
+            }
+            3 -> {
+                textField_Operator.text = "x"
+            }
+            4 -> {
+                textField_Operator.text = "/"
+            }
         }
     }
 
